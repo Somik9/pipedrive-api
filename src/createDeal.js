@@ -2,7 +2,7 @@ const pipedrive = require('pipedrive');
 
 async function addDeal() {
     const defaultClient = new pipedrive.ApiClient();
-    defaultClient.authentications.api_key.apiKey = '72aed2b4cc2a82b890b41bc7927901272211a255';
+    defaultClient.authentications.api_key.apiKey = 'YOUR_API_KEY';
 
     const api = new pipedrive.DealsApi(defaultClient);
 
